@@ -1,4 +1,4 @@
-package com.abt.gsondemo;
+package com.abt.gson;
 
 import org.junit.Test;
 

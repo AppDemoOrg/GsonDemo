@@ -1,4 +1,4 @@
-package com.abt.gsondemo;
+package com.abt.gson;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
