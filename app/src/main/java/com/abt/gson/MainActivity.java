@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         Gson gson = new Gson();
         Bean bean = gson.fromJson(data, Bean.class);
         mSB.append("key: c, value: ").append(bean.getC().toString()).append("\n");
-        Logger.e(bean.getC().toString());
+        Logger.e("key: c, value: "+bean.getC().toString());
         try {
             LinkedTreeMap tm = (LinkedTreeMap)bean.getC();
             tm.put("f", "json");
